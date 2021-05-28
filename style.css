@@ -1258,6 +1258,25 @@ a:hover {
 
 
 }
+@media (min-width: 424px){
+    .sidebar {
+    display: none;
+    height: 3.5rem;
+    width: 20rem;
+    background: linear-gradient(to right, rgba(169, 96, 238, .5), rgba(144, 224, 225, .5));
+    text-align: center;
+    position: absolute;
+    left: -9.5% !important;
+    top: 50%;
+    overflow: hidden;
+    transform: rotate(90deg);
+    border-radius: 1rem;
+    box-shadow: .5rem .75rem rgba(0, 0, 0, .5);
+    z-index: 1000;
+    transition: all .2s ease-out;
+
+}
+}
 @media (max-width:424px){
     .sidebar {
     display: none;
