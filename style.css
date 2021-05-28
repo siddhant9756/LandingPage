@@ -1798,6 +1798,21 @@ a:hover {
 }
 
 @media only screen and (max-width:425px) {
+.background {
+    height: 100vh;
+    width: 100%;
+    padding-top: 19rem;
+    display: block;
+    background-image: linear-gradient(to right bottom,
+        rgba(169, 96, 238, .6), rgba(144, 224, 255, .6)), url("./img/heading3.jpg");
+    clip-path: circle(73.6% at 100% 0);
+    background-size: cover;
+    background-color: #f3f7f9;
+    background-position: right top;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden
+}
 .navigation__link:link,
 .navigation__link:visited {
     display: inline-block;
